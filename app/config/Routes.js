@@ -22,17 +22,18 @@ const TabNavigator = createMaterialTopTabNavigator(
     TabRoutes,
     {
       tabBarOptions: {
-        activeTintColor: 'white',  // Color of tab when pressed
+        activeTintColor: 'lightblue',  // Color of tab when pressed
         inactiveTintColor: 'lightgray', // Color of tab when not pressed
         labelStyle: {
           fontSize: 14,
-          fontWeight: 'bold'
+          fontWeight: 'bold',
+          color: 'black'
         },
         indicatorStyle: {
-            backgroundColor: 'white',
+            backgroundColor: 'lightblue',
         },
         style: {
-          backgroundColor: '#285c54',
+          backgroundColor: 'white',
           shadowOpacity: 0,
           shadowOffset: {
             height: 0,

@@ -7,7 +7,7 @@ import ChatContent from '../components/chatContent/ChatContent';
 const ChatDetail = ({navigation}) => (
   <View style={{flex: 1}}>
     <HeaderChat {...{navigation}} user={navigation.state.params.userActive}/>
-    <ChatContent />
+    <ChatContent user={navigation.state.params.userActive}/>
   </View>
 )
 

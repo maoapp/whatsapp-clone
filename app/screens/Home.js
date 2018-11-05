@@ -14,42 +14,49 @@ import Modal from 'react-native-modal';
 
 const users = [
   {
+    id: 0,
     name: 'Bale',
     picture: require("../assets/baleProfile.jpeg"),
     date: '22-Mar-2016 5:46 PM',
     call: true
   },
   {
+    id: 1,
     name: 'Ronaldo',
     picture: require("../assets/ronaldoProfile.jpg"),
     date: '22-Mar-2016 5:46 PM',
     call: false
   },
   {
+    id: 2,
     name: 'Isco',
     picture: require("../assets/IscoProfile.jpg"),
     date: '22-Mar-2016 5:46 PM',
     call: true
   },
   {
+    id: 3,
     name: 'Asensio',
     picture: require("../assets/asensioProfile.jpg"),
     date: '22-Mar-2016 5:46 PM',
     call: true
   },
   {
+    id: 4,
     name: 'Kross',
     picture: require("../assets/krossProfile.jpeg"),
     date: '22-Mar-2016 5:46 PM',
     call: false
   },
   {
+    id: 5,
     name: 'Marcelo',
     picture: require("../assets/marcelo.jpg"),
     date: '22-Mar-2016 5:46 PM',
     call: true
   },
   {
+    id: 6,
     name: 'Ramos',
     picture: require("../assets/ramos.jpg"),
     date: '22-Mar-2016 5:46 PM',
