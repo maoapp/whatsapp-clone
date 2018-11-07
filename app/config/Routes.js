@@ -3,9 +3,9 @@ import { Dimensions, View, Text } from 'react-native';
 import { createMaterialTopTabNavigator } from 'react-navigation';
 
 import Header from '../components/Header';
-import Home from '../screens/Home';
-import Chat from '../screens/Chat';
-import Contacts from '../screens/Contacts';
+import Chat from '../screens/Home';
+import Call from '../screens/Chat';
+import Status from '../screens/Contacts';
 import ChatDetail from '../screens/ChatDetail';
 import CallView from '../screens/CallView';
 import VideoCallView from '../screens/VideoCallView';
@@ -13,9 +13,9 @@ import UserDetail from '../screens/UserDetail';
 import ImagePerfilDetail from '../screens/ImagePerfilDetail';
 
 const TabRoutes = {
-  Home,
   Chat,
-  Contacts
+  Call,
+  Status
 }
 
 const TabNavigator = createMaterialTopTabNavigator(
@@ -27,13 +27,13 @@ const TabNavigator = createMaterialTopTabNavigator(
         labelStyle: {
           fontSize: 14,
           fontWeight: 'bold',
-          color: 'black'
+          color: 'white'
         },
         indicatorStyle: {
-            backgroundColor: 'lightblue',
+            backgroundColor: 'white',
         },
         style: {
-          backgroundColor: 'white',
+          backgroundColor: '#285c54',
           shadowOpacity: 0,
           shadowOffset: {
             height: 0,
