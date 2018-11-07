@@ -3,14 +3,14 @@ import { Dimensions, View, Text } from 'react-native';
 import { createMaterialTopTabNavigator } from 'react-navigation';
 
 import Header from '../components/Header';
-import Chat from '../screens/Home';
-import Call from '../screens/Chat';
-import Status from '../screens/Contacts';
-import ChatDetail from '../screens/ChatDetail';
-import CallView from '../screens/CallView';
-import VideoCallView from '../screens/VideoCallView';
-import UserDetail from '../screens/UserDetail';
-import ImagePerfilDetail from '../screens/ImagePerfilDetail';
+import Chat from '../screens/HomeScreen';
+import Call from '../screens/ChatScreen';
+import Status from '../screens/ContactsScreen';
+import ChatDetail from '../screens/ChatDetailScreen';
+import CallView from '../screens/CallViewScreen';
+import VideoCallView from '../screens/VideoCallScreen';
+import UserDetail from '../screens/UserDetailScreen';
+import ImagePerfilDetail from '../screens/ImagePerfilDetailScreen';
 
 const TabRoutes = {
   Chat,
